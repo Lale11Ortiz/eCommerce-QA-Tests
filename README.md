@@ -1,1 +1,0 @@
-Este reporte contiene los principales bugs encontrados durante una sesión de pruebas exploratorias sobre un sitio e-commerce de práctica. Se incluyen detalles de prioridad, pasos para reproducir y resultados esperados vs. actuales.
