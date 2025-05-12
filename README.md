@@ -79,7 +79,54 @@ Es parte de mi entrenamiento y evolución profesional como QA Tester Manual y Au
 
 ---
 
-## ✍️ Autor: Luis Ortiz
+🔗 UPDATE
+
+## 🧪 Temporada 2: Automatización con Python + Selenium (Finalizada)
+
+Esta segunda etapa del proyecto representa mi evolución hacia la automatización de pruebas funcionales. Se trabajó con:
+
+- **Selenium WebDriver**
+- **Python (versión 3.13)**
+- **ChromeDriver**
+- **Estructuras con unittest**
+- Exploración inicial de **pytest** y **conftest.py** (pospuesta para temporada 3)
+- Navegación por proyectos reales
+- Manejo del flujo Git/GitHub desde terminal
+
+---
+
+### ✔️ Tests implementados:
+| Test                            | Tecnología     | Resultado |
+|---------------------------------|----------------|-----------|
+| Búsqueda en Google              | Selenium + Python + unittest | ✅ |
+| Simulación de login             | Selenium + Python + unittest | ✅ |
+| Verificación de contenido real  | Selenium + Python + unittest | ✅ |
+| Refactorización con setup/teardown | unittest | ✅ |
+| Test con POM (inicial)          | pytest + conftest.py (pendiente) | 🔄 |
+| DuckDuckGo search (final test)  | unittest (refactorizado) | ✅ |
+
+---
+
+### 📂 Estructura del proyecto
+
+eCommerce-QA-Tests/
+│
+├── automation/
+│   ├── test_google_search.py
+│   ├── test_login_demo.py
+│   ├── test_verify_content.py
+│   ├── test_with_setup_teardown.py
+│   ├── test_duckduckgo_unittest.py 
+│   ├── archive/ (tests viejos o en pausa)
+│   └── chromedriver.exe
+│
+├── Manual-Bug-Report/
+├── TestCases_eCommerce.xlsx
+└── README.md 
+
+## ✍️ Autor
 
 Este proyecto es parte de mi transición profesional hacia el mundo del QA Automatizado.  
 Hecho con 💻, curiosidad y muchas ganas de aprender.
+GitHub:
+LinkedIn:
