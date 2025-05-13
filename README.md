@@ -115,21 +115,22 @@ eCommerce-QA-Tests/
 │   ├── test_login_demo.py
 │   ├── test_verify_content.py
 │   ├── test_with_setup_teardown.py
-│   ├── test_duckduckgo_unittest.py   ✅
+│   ├── test_duckduckgo_unittest.py ✅
 │   ├── chromedriver.exe
-│   └── archive/   (tests pausados o reemplazados)
+│   └── archive/   🗃️ Tests pausados o reemplazados
 │       ├── test_wikipedia_pom.py
 │       ├── test_wikipedia_unittest.py
 │       ├── conftest.py
 │       └── wikipedia_homepage.py
 ├── Manual-Bug-Report/
-├── TestCases_eCommerce.xlsx         ← primeros casos de prueba manuales
-├── TestCases_eCommerce_v2.xlsx      ← versión con resultados reales por hoja (Home, Login, Carrito)
+├── TestCases_eCommerce.xlsx
+├── TestCases_eCommerce_v2.xlsx
 └── README.md
 
 ## ✍️ Autor
 
 Este proyecto es parte de mi transición profesional hacia el mundo del QA Automatizado.  
 Hecho con 💻, curiosidad y muchas ganas de aprender.
-GitHub:
-LinkedIn:
+
+GitHub: Lale11Ortiz
+LinkedIn: www.linkedin.com/in/luis-ortiz-rodriguez-1623a317b
