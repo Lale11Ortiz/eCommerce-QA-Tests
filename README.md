@@ -110,19 +110,22 @@ Esta segunda etapa del proyecto representa mi evolución hacia la automatizació
 ### 📂 Estructura del proyecto
 
 eCommerce-QA-Tests/
-│
 ├── automation/
 │   ├── test_google_search.py
 │   ├── test_login_demo.py
 │   ├── test_verify_content.py
 │   ├── test_with_setup_teardown.py
-│   ├── test_duckduckgo_unittest.py 
-│   ├── archive/ (tests viejos o en pausa)
-│   └── chromedriver.exe
-│
+│   ├── test_duckduckgo_unittest.py   ✅
+│   ├── chromedriver.exe
+│   └── archive/   (tests pausados o reemplazados)
+│       ├── test_wikipedia_pom.py
+│       ├── test_wikipedia_unittest.py
+│       ├── conftest.py
+│       └── wikipedia_homepage.py
 ├── Manual-Bug-Report/
-├── TestCases_eCommerce.xlsx
-└── README.md 
+├── TestCases_eCommerce.xlsx         ← primeros casos de prueba manuales
+├── TestCases_eCommerce_v2.xlsx      ← versión con resultados reales por hoja (Home, Login, Carrito)
+└── README.md
 
 ## ✍️ Autor
 
