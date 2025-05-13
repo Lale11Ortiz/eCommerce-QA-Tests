@@ -5,29 +5,26 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-class DuckDuckGoTest(unittest.TestCase):
+class WikipediaTest(unittest.TestCase):
 
     def setUp(self):
         service = Service(executable_path="automation/chromedriver.exe")
         self.driver = webdriver.Chrome(service=service)
-        self.driver.get("https://duckduckgo.com/")
+        self.driver.get("https://en.wikipedia.org/")
 
     def test_search_python(self):
-        wait = WebDriverWait(self.driver, 15)
+        wait = WebDriverWait(self.driver, 10)
 
-        # Espera a que el input esté listo
-        search_box = wait.until(EC.element_to_be_clickable((By.ID, "searchbox_input")))
-        search_box.send_keys("Python programming language")
+        # Espera hasta que el input sea visible e interactuable
+        search_box = wait.until(EC.element_to_be_clickable((By.NAME, "search")))
+        search_box.send_keys("Python (programming language)")
+        search_box.submit()
 
-        # Encuentra y hace clic en el botón de búsqueda
-        search_button = self.driver.find_element(By.XPATH, "//button[@type='submit']")
-        search_button.click()
+        # Espera a que se cargue el nuevo encabezado
+        heading = wait.until(EC.visibility_of_element_located((By.ID, "firstHeading"))).text
 
-        # Esperar a que el título contenga "Python"
-        wait.until(EC.title_contains("Python"))
-
-        self.assertIn("Python", self.driver.title)
-        print("✅ DuckDuckGo: ¡La búsqueda funcionó perfectamente!")
+        self.assertIn("Python", heading)
+        print("✅ Se encontró la página correctamente.")
 
     def tearDown(self):
         self.driver.quit()
