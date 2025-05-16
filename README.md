@@ -129,8 +129,10 @@ eCommerce-QA-Tests/
 
 ## ✍️ Autor
 
+Luis Ortiz
+QA Automation Engineer – Remote-ready 💻🌎
 Este proyecto es parte de mi transición profesional hacia el mundo del QA Automatizado.  
 Hecho con 💻, curiosidad y muchas ganas de aprender.
 
 - GitHub: Lale11Ortiz
-- LinkedIn: www.linkedin.com/in/luis-ortiz-rodriguez-1623a317b
+- LinkedIn: www.linkedin.com/in/luis-ortiz-qa
