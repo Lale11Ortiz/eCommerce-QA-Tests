@@ -1,7 +1,7 @@
 # 🧪 eCommerce-QA-Tests  
 **Functional Testing – Manual & Automation**  
 Created as part of my transition towards a QA Automation career.  
-Built with curiosity, consistency, and my co-pilot COSMO 💻🚀
+Built with curiosity and consistency. 💻🚀
 
 ---
 
